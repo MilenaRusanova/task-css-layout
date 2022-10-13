@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+} 
+
 .buttom {
     background-color: #f1c40f;
     border-radius: 2px;

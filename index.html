@@ -10,11 +10,13 @@
 </head>
 <body>
     <header>
-        <img src="/image/PlantLand-Logo.svg" alt="PlantLand-Logo">
+        <img  class= "logo-image" src="/image/PlantLand-Logo.svg" alt="PlantLand-Logo">
         <nav>
-            <a href="#featurs-item">Features</a>
-            <a href="#">How It Works</a>
-            <a href="#">Prising</a>
+            <ul class="header-navigation">
+                <li><a href="#features-item">Features</a></li>
+                <li><a href="#video">How It Works</a></li>
+                <li><a href="#prising">Prising</a></li>
+            </ul>
         </nav>
     </header>
     <section class="order-plant">
@@ -23,7 +25,7 @@
         <input class="order-plant-bottom" type="submit" value="Buy now">
     </section>
     <div>
-        <section class="featurs-item">
+        <section class="features-item" id="features-item">
             <img src="/image/features-icon.svg" alt="Plant" width="60px">
             <h2>Lorem, ipsum dolor.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, error?</p>
@@ -39,11 +41,11 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, porro!</p>
         </section>
     </div>
-    <div>
+    <div class="video" id="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/QQDRAsHJ6bY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div>
-        <section>
+        <section class="prising" id="prising">
             <h2>Tree</h2>
             <h2>70$</h2>
             <ul>
