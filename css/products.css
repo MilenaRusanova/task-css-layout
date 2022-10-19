@@ -8,3 +8,33 @@
     height: 200px;
     margin-top: 50px;
 }
+
+.order-plant-bottom {
+    background-color: olive;
+    text-decoration-color: floralwhite;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.features-items-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+    .features-items-section {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.video {
+    display: block;
+    margin-left: 100px;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

@@ -1,24 +1,51 @@
 header {
     top: 0;
-    min-height: 75px;
-    padding: 0px 20px;
-    justify-content: space-around;
     background-color: #eee;
+    display: flex;
+    width: auto;
 }
 
 .logo-image {
     width: 300px;
-    height: 34px;
-    margin-left: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 40px;
+    margin-left: 10px;
+    display: block;
 }
 
 .header-navigation {
     font-weight: 400;
-    display: inline-block;
     display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.header-navigation-list {
     justify-content: space-between;
-    align-items: center;
+    padding: 20px 30px 20px 30px;
+}
+
+@media (min-width: 768px) {
+    .header-navigation-list {
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+    }
+}
+
+.order-plant {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.order-plant-email{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.order-plant-bottom {
+
 }
